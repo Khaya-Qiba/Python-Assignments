@@ -1,23 +1,20 @@
-# Python-Assignments
-Assignmnet 1: OOP Assignment
-# 🦸 Superhero Class in Python
+Object-Oriented Programming Assignments
+Welcome to my OOP assignment repository. This space includes two Python scripts developed as part of my coursework on core Object-Oriented Programming principles. These assignments illustrate encapsulation, inheritance, and polymorphism through practical examples.
+Assignment 1: Superhero Class: Encapsulation & Inheritance
+File: 1_superhero_class.py
+This script introduces a Superhero base class with encapsulated attributes and an extended subclass FlyingHero demonstrating inheritance and method overriding. I used this exercise to model simple character behaviour while applying private attributes and class hierarchies.
+Highlights:
+Encapsulated attributes using naming conventions
+display_stats() method for object introspection
+Subclass FlyingHero with an additional fly() method
 
-## Overview
-This assignment introduces Object-Oriented Programming (OOP) in Python through the design of a `Superhero` class. The class uses constructors, attributes, methods, **encapsulation**, and **inheritance** to simulate realistic character behaviors and relationships.
+Assignment 2: Polymorphism Demonstration: Movers
+File: 2_polymorphism_movers.py
+The second assignment explores polymorphism through a base class Mover and various subclasses (Car, Horse, Plane). Each subclass implements its own version of the move() method, showing how a single interface can support multiple behaviours.
+Highlights:
+Shared move() interface across classes
+Independent implementations to reflect contextual movement
+Runtime polymorphism through class invocation
 
-## Features
-- Define a base class `Superhero` with core attributes.
-- Use a constructor `__init__()` to initialize unique values.
-- Encapsulate sensitive data using private variables.
-- Extend functionality with a child class `FlyingHero`.
-- Override methods using inheritance to demonstrate polymorphism.
-
-## Code Highlights
-```python
-class Superhero:
-    def __init__(self, name, power, origin):
-        self.name = name
-        self.power = power
-        self.__origin = origin
 
 
